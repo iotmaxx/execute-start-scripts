@@ -23,7 +23,7 @@ with open("execute_start_scripts/version.py") as fp:
     exec(fp.read(), version)
 
 setup(
-    name='strtscrptexec',
+    name='execute_start_scripts',
     version=version['__version__'],
     url='https://github.com/iotmaxx/execute-start-scripts',
     author='Ralf Glaser',
