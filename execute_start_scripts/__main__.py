@@ -19,6 +19,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 from .executeStartScripts import executeStartScripts
 import logging
 import time
+import argparse
 
 log = logging.getLogger()
 log.setLevel(logging.DEBUG)
