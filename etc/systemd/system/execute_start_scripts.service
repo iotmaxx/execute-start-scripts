@@ -1,0 +1,9 @@
+[Unit]
+Description=gateway customer start script executor
+
+[Service]
+Type=oneshot
+ExecStart=python -m strtscrptexec --directory=/data/p1/etc/rc.start.d
+
+[Install]
+WantedBy=multi-user.target
