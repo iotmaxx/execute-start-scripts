@@ -3,7 +3,7 @@ Description=gateway customer start script executor
 
 [Service]
 Type=oneshot
-ExecStart=python -m execute_start_scripts --directory=/data/p1/etc/rc.start.d
+ExecStart=python -m execute_start_scripts --directory=/data/p1/autostart
 
 [Install]
 WantedBy=multi-user.target
